@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="rosbag" type="play" name="playr" output="screen"
+      args="/home/kmu-remote/2022-09-08-15-00-50.bag -k --clock --topic /topCamera/image/compressed /tpfCamera/image/compressed /usb_cam/image_raw/compressed"/>
+
+<node name="merge" type="merge" pkg="cv2_calib_example" output="screen"/>
+<node name="joy_jcustom_node" type="joy_jcustom_node" pkg="joy" output="screen"/>
+
+<node name="republish1" type="republish" pkg="image_transport" output="screen" args="compressed in:=/usb_cam/image_raw raw out:=/movie/image_raw" />
+<node name="republish2" type="republish" pkg="image_transport" output="screen" args="compressed in:=/topCamera/image raw out:=/movie/top_image_raw" />
+<node name="republish3" type="republish" pkg="image_transport" output="screen" args="compressed in:=/tpfCamera/image raw out:=/movie/tpf_image_raw" />
+
+<node pkg="kmu_gui" type="kmu_gui" name="kmu_gui1" output="screen"/>
+
+</launch> 

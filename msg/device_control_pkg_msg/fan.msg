@@ -1,0 +1,21 @@
+# FAN COMMAND #
+int32 CMD
+# 00 : No Command
+# 01 : FAN OFF
+# 02 : FAN ON
+# 03 : FAN DUTY 0%
+# 04 : FAN DUTY 25%
+# 05 : FAN DUTY 50%
+# 06 : FAN DUTY 75%
+# 07 : FAN DUTY 100%
+
+# FAN STATE #
+int32 STATE
+# 00 : No Command
+# 01 : FAN OFF
+# 02 : FAN ON
+# 03 : FAN DUTY 0%
+# 04 : FAN DUTY 25%
+# 05 : FAN DUTY 50%
+# 06 : FAN DUTY 75%
+# 07 : FAN DUTY 100%

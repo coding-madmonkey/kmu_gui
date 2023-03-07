@@ -1,0 +1,3847 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindowDesign</class>
+ <widget class="QMainWindow" name="MainWindowDesign">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>2560</width>
+    <height>1573</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>KMU_GUI</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>:/images/icon.png</normaloff>:/images/icon.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(28,31,46,255), stop:1 rgba(25, 27, 41, 255))</string>
+  </property>
+  <property name="locale">
+   <locale language="English" country="Australia"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QWidget" name="widget" native="true">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>2560</width>
+        <height>70</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(51, 155, 255, 100	), stop:0.3 rgba(25,27,41,100), stop:1 rgba(36, 39, 58,100) )</string>
+      </property>
+      <widget class="QLabel" name="top_date_label">
+       <property name="geometry">
+        <rect>
+         <x>32</x>
+         <y>15</y>
+         <width>141</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: transparent;
+font: 20pt &quot;Ubuntu&quot;;
+color: #dfe1ee;</string>
+       </property>
+       <property name="text">
+        <string>ROS_INIT</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="top_time_label">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>17</y>
+         <width>141</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: transparent;
+font: 16pt &quot;Ubuntu&quot;;
+color: #a1a5be;</string>
+       </property>
+       <property name="text">
+        <string>required</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_3">
+       <property name="geometry">
+        <rect>
+         <x>1279</x>
+         <y>28</y>
+         <width>371</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: transparent;
+font: 10pt &quot;Ubuntu&quot;;
+color: #a1a5be;</string>
+       </property>
+       <property name="text">
+        <string>국민위해인자에 대응한 기체분자 식별 분석 기술개발 사업</string>
+       </property>
+       <property name="textFormat">
+        <enum>Qt::PlainText</enum>
+       </property>
+      </widget>
+      <widget class="QLabel" name="kiro_label">
+       <property name="geometry">
+        <rect>
+         <x>1827</x>
+         <y>20</y>
+         <width>60</width>
+         <height>32</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background:transparent;
+color:white;</string>
+       </property>
+       <property name="text">
+        <string>kiro_logo</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="top_header_label">
+       <property name="geometry">
+        <rect>
+         <x>688</x>
+         <y>-3</y>
+         <width>544</width>
+         <height>73</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:transparent;
+color:white;</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="text">
+        <string>header</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="top_title_label">
+       <property name="geometry">
+        <rect>
+         <x>856</x>
+         <y>19</y>
+         <width>200</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Pretendard Variable</family>
+         <pointsize>15</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+         <kerning>false</kerning>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: transparent;
+font: 75 15pt &quot;Pretendard Variable&quot;;
+color: #DFE1EE;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+/*font: 20pt &quot;Ubuntu&quot;;*/</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="text">
+        <string>원격 이동형 측정 로봇</string>
+       </property>
+       <property name="textFormat">
+        <enum>Qt::PlainText</enum>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="kmu_label_2">
+       <property name="geometry">
+        <rect>
+         <x>1738</x>
+         <y>26</y>
+         <width>80</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background:transparent;
+color: white;</string>
+       </property>
+       <property name="text">
+        <string>rc</string>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_5">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QWidget" name="widget_2" native="true">
+        <widget class="QFrame" name="frame_1">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>20</y>
+           <width>1880</width>
+           <height>1463</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="autoFillBackground">
+          <bool>false</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color : rgb(36, 39, 58)</string>
+         </property>
+         <widget class="QLabel" name="main_camera">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>52</y>
+            <width>1840</width>
+            <height>860</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:rgb(42, 45, 67)</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="textFormat">
+           <enum>Qt::PlainText</enum>
+          </property>
+          <property name="scaledContents">
+           <bool>true</bool>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+          <property name="wordWrap">
+           <bool>false</bool>
+          </property>
+         </widget>
+         <widget class="QLabel" name="main_movie_top">
+          <property name="geometry">
+           <rect>
+            <x>23</x>
+            <y>990</y>
+            <width>575</width>
+            <height>411</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:rgb(42, 45, 67)
+</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="scaledContents">
+           <bool>true</bool>
+          </property>
+          <property name="wordWrap">
+           <bool>false</bool>
+          </property>
+         </widget>
+         <widget class="QLabel" name="main_movie_tpf">
+          <property name="geometry">
+           <rect>
+            <x>618</x>
+            <y>990</y>
+            <width>575</width>
+            <height>411</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:rgb(42, 45, 67)
+</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="scaledContents">
+           <bool>true</bool>
+          </property>
+          <property name="wordWrap">
+           <bool>false</bool>
+          </property>
+         </widget>
+         <widget class="QTextEdit" name="textEdit">
+          <property name="geometry">
+           <rect>
+            <x>49</x>
+            <y>9</y>
+            <width>121</width>
+            <height>30</height>
+           </rect>
+          </property>
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <pointsize>20</pointsize>
+            <weight>75</weight>
+            <italic>false</italic>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="layoutDirection">
+           <enum>Qt::LeftToRight</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(161, 165, 190);</string>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::NoFrame</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Plain</enum>
+          </property>
+          <property name="verticalScrollBarPolicy">
+           <enum>Qt::ScrollBarAlwaysOff</enum>
+          </property>
+          <property name="horizontalScrollBarPolicy">
+           <enum>Qt::ScrollBarAlwaysOff</enum>
+          </property>
+          <property name="lineWrapMode">
+           <enum>QTextEdit::WidgetWidth</enum>
+          </property>
+          <property name="readOnly">
+           <bool>true</bool>
+          </property>
+          <property name="html">
+           <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:20pt; font-weight:600; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:15pt;&quot;&gt;Camera&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+          <property name="textInteractionFlags">
+           <set>Qt::TextSelectableByMouse</set>
+          </property>
+         </widget>
+         <widget class="QTextEdit" name="textEdit_2">
+          <property name="geometry">
+           <rect>
+            <x>49</x>
+            <y>955</y>
+            <width>341</width>
+            <height>30</height>
+           </rect>
+          </property>
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <family>Pretendard Variable</family>
+            <pointsize>20</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="layoutDirection">
+           <enum>Qt::LeftToRight</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(161, 165, 190);</string>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::NoFrame</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Plain</enum>
+          </property>
+          <property name="verticalScrollBarPolicy">
+           <enum>Qt::ScrollBarAlwaysOff</enum>
+          </property>
+          <property name="horizontalScrollBarPolicy">
+           <enum>Qt::ScrollBarAlwaysOff</enum>
+          </property>
+          <property name="lineWrapMode">
+           <enum>QTextEdit::WidgetWidth</enum>
+          </property>
+          <property name="readOnly">
+           <bool>true</bool>
+          </property>
+          <property name="html">
+           <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Pretendard Variable'; font-size:20pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:15pt; font-weight:600;&quot;&gt;SLAM Screen (Control View)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+          <property name="textInteractionFlags">
+           <set>Qt::TextSelectableByMouse</set>
+          </property>
+         </widget>
+         <widget class="QTextEdit" name="textEdit_3">
+          <property name="geometry">
+           <rect>
+            <x>642</x>
+            <y>955</y>
+            <width>341</width>
+            <height>30</height>
+           </rect>
+          </property>
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <pointsize>15</pointsize>
+            <weight>75</weight>
+            <italic>false</italic>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="layoutDirection">
+           <enum>Qt::LeftToRight</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(161, 165, 190);</string>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::NoFrame</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Plain</enum>
+          </property>
+          <property name="verticalScrollBarPolicy">
+           <enum>Qt::ScrollBarAlwaysOff</enum>
+          </property>
+          <property name="horizontalScrollBarPolicy">
+           <enum>Qt::ScrollBarAlwaysOff</enum>
+          </property>
+          <property name="lineWrapMode">
+           <enum>QTextEdit::WidgetWidth</enum>
+          </property>
+          <property name="readOnly">
+           <bool>true</bool>
+          </property>
+          <property name="html">
+           <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:15pt; font-weight:600; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;SLAM Screen (Top View)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+          <property name="textInteractionFlags">
+           <set>Qt::TextSelectableByMouse</set>
+          </property>
+         </widget>
+         <widget class="QLabel" name="main_cam_icon_label">
+          <property name="geometry">
+           <rect>
+            <x>23</x>
+            <y>15</y>
+            <width>20</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:transparent;
+color: white;</string>
+          </property>
+          <property name="text">
+           <string>[]</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="main_top_icon_label">
+          <property name="geometry">
+           <rect>
+            <x>23</x>
+            <y>960</y>
+            <width>20</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:transparent;
+color: white;</string>
+          </property>
+          <property name="text">
+           <string>[]</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="main_tpf_icon_label">
+          <property name="geometry">
+           <rect>
+            <x>616</x>
+            <y>960</y>
+            <width>20</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:transparent;
+color: white;</string>
+          </property>
+          <property name="text">
+           <string>[]</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QTabWidget" name="tab_manager">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="geometry">
+          <rect>
+           <x>1920</x>
+           <y>20</y>
+           <width>620</width>
+           <height>1463</height>
+          </rect>
+         </property>
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>620</width>
+           <height>1463</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>608</width>
+           <height>978</height>
+          </size>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::NoFocus</enum>
+         </property>
+         <property name="contextMenuPolicy">
+          <enum>Qt::NoContextMenu</enum>
+         </property>
+         <property name="autoFillBackground">
+          <bool>false</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QTabWidget::pane { /* The tab widget frame */
+    border-top: 2px solid rgb(36, 39, 58);
+}
+QTabBar::tab {
+    background-color: transparent;
+    border-bottom-color: rgb(36, 39, 58); /* same as the pane color */
+    padding-left: 20px;
+    min-height: 53px;
+    min-width: 73px;/*93px;*/
+}
+QTabBar::tab:selected {
+    background-color:rgb(36, 39, 58);
+    border-bottom-color:rgb(36, 39, 58); /* same as pane color */
+    padding-left: 20px;
+    min-height: 53px;
+    min-width: 73px;/*93px;*/
+}</string>
+         </property>
+         <property name="tabPosition">
+          <enum>QTabWidget::North</enum>
+         </property>
+         <property name="tabShape">
+          <enum>QTabWidget::Rounded</enum>
+         </property>
+         <property name="currentIndex">
+          <number>0</number>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>53</width>
+           <height>45</height>
+          </size>
+         </property>
+         <property name="elideMode">
+          <enum>Qt::ElideNone</enum>
+         </property>
+         <widget class="QWidget" name="main_tab">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::TabFocus</enum>
+          </property>
+          <property name="layoutDirection">
+           <enum>Qt::LeftToRight</enum>
+          </property>
+          <property name="autoFillBackground">
+           <bool>false</bool>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color : rgb(36, 39, 58);
+           </string>
+          </property>
+          <attribute name="icon">
+           <iconset>
+            <selectedoff>:/gnb_main_off.png</selectedoff>
+            <selectedon>:/gnb_main_on.png</selectedon>
+           </iconset>
+          </attribute>
+          <attribute name="title">
+           <string notr="true"/>
+          </attribute>
+          <layout class="QVBoxLayout" name="verticalLayout_2">
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QFrame" name="frame_2">
+             <property name="styleSheet">
+              <string notr="true">background-color : rgb(36, 39, 58)</string>
+             </property>
+             <property name="frameShape">
+              <enum>QFrame::NoFrame</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Plain</enum>
+             </property>
+             <property name="lineWidth">
+              <number>0</number>
+             </property>
+             <widget class="QTextEdit" name="textEdit_4">
+              <property name="geometry">
+               <rect>
+                <x>20</x>
+                <y>12</y>
+                <width>191</width>
+                <height>30</height>
+               </rect>
+              </property>
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>18</pointsize>
+               </font>
+              </property>
+              <property name="layoutDirection">
+               <enum>Qt::LeftToRight</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">color: rgb(161, 165, 190);</string>
+              </property>
+              <property name="frameShape">
+               <enum>QFrame::NoFrame</enum>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Plain</enum>
+              </property>
+              <property name="verticalScrollBarPolicy">
+               <enum>Qt::ScrollBarAlwaysOff</enum>
+              </property>
+              <property name="horizontalScrollBarPolicy">
+               <enum>Qt::ScrollBarAlwaysOff</enum>
+              </property>
+              <property name="lineWrapMode">
+               <enum>QTextEdit::WidgetWidth</enum>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+              <property name="html">
+               <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:18pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:15pt; font-weight:600;&quot;&gt;Basic Information&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+              <property name="textInteractionFlags">
+               <set>Qt::TextSelectableByMouse</set>
+              </property>
+             </widget>
+             <widget class="QTextEdit" name="textEdit_5">
+              <property name="geometry">
+               <rect>
+                <x>20</x>
+                <y>444</y>
+                <width>191</width>
+                <height>30</height>
+               </rect>
+              </property>
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>18</pointsize>
+               </font>
+              </property>
+              <property name="layoutDirection">
+               <enum>Qt::LeftToRight</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">color: rgb(161, 165, 190);</string>
+              </property>
+              <property name="frameShape">
+               <enum>QFrame::NoFrame</enum>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Plain</enum>
+              </property>
+              <property name="verticalScrollBarPolicy">
+               <enum>Qt::ScrollBarAlwaysOff</enum>
+              </property>
+              <property name="horizontalScrollBarPolicy">
+               <enum>Qt::ScrollBarAlwaysOff</enum>
+              </property>
+              <property name="lineWrapMode">
+               <enum>QTextEdit::WidgetWidth</enum>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+              <property name="html">
+               <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:18pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:15pt; font-weight:600;&quot;&gt;Gas Sensor&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+              <property name="textInteractionFlags">
+               <set>Qt::TextSelectableByMouse</set>
+              </property>
+             </widget>
+             <widget class="QTextEdit" name="textEdit_6">
+              <property name="geometry">
+               <rect>
+                <x>311</x>
+                <y>444</y>
+                <width>191</width>
+                <height>30</height>
+               </rect>
+              </property>
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>18</pointsize>
+               </font>
+              </property>
+              <property name="layoutDirection">
+               <enum>Qt::LeftToRight</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">color: rgb(161, 165, 190);</string>
+              </property>
+              <property name="frameShape">
+               <enum>QFrame::NoFrame</enum>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Plain</enum>
+              </property>
+              <property name="verticalScrollBarPolicy">
+               <enum>Qt::ScrollBarAlwaysOff</enum>
+              </property>
+              <property name="horizontalScrollBarPolicy">
+               <enum>Qt::ScrollBarAlwaysOff</enum>
+              </property>
+              <property name="lineWrapMode">
+               <enum>QTextEdit::WidgetWidth</enum>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+              <property name="html">
+               <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:18pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:15pt; font-weight:600;&quot;&gt;Capture Sensor&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+              <property name="textInteractionFlags">
+               <set>Qt::TextSelectableByMouse</set>
+              </property>
+             </widget>
+             <widget class="QFrame" name="gas_frame">
+              <property name="geometry">
+               <rect>
+                <x>20</x>
+                <y>477</y>
+                <width>277</width>
+                <height>208</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color:rgb(42, 45, 67)</string>
+              </property>
+              <property name="frameShape">
+               <enum>QFrame::NoFrame</enum>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Plain</enum>
+              </property>
+              <widget class="QLabel" name="gas_led_0">
+               <property name="geometry">
+                <rect>
+                 <x>8</x>
+                 <y>19</y>
+                 <width>31</width>
+                 <height>31</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+               <property name="pixmap">
+                <pixmap>:/gas-black.png</pixmap>
+               </property>
+               <property name="scaledContents">
+                <bool>false</bool>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+              <widget class="QLabel" name="gas_led_1">
+               <property name="geometry">
+                <rect>
+                 <x>8</x>
+                 <y>67</y>
+                 <width>31</width>
+                 <height>31</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+               <property name="pixmap">
+                <pixmap>:/gas-black.png</pixmap>
+               </property>
+               <property name="scaledContents">
+                <bool>false</bool>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+              <widget class="QLabel" name="gas_led_2">
+               <property name="geometry">
+                <rect>
+                 <x>8</x>
+                 <y>117</y>
+                 <width>31</width>
+                 <height>31</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+               <property name="pixmap">
+                <pixmap>:/gas-black.png</pixmap>
+               </property>
+               <property name="scaledContents">
+                <bool>false</bool>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+              <widget class="QLabel" name="gas_led_3">
+               <property name="geometry">
+                <rect>
+                 <x>8</x>
+                 <y>161</y>
+                 <width>31</width>
+                 <height>31</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+               <property name="pixmap">
+                <pixmap>:/gas-black.png</pixmap>
+               </property>
+               <property name="scaledContents">
+                <bool>false</bool>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+              <widget class="QLineEdit" name="gas_lineEdit_0">
+               <property name="geometry">
+                <rect>
+                 <x>44</x>
+                 <y>14</y>
+                 <width>221</width>
+                 <height>40</height>
+                </rect>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>15</pointsize>
+                </font>
+               </property>
+               <property name="maxLength">
+                <number>50</number>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+              <widget class="QLineEdit" name="gas_lineEdit_1">
+               <property name="geometry">
+                <rect>
+                 <x>44</x>
+                 <y>62</y>
+                 <width>221</width>
+                 <height>40</height>
+                </rect>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>15</pointsize>
+                </font>
+               </property>
+               <property name="maxLength">
+                <number>50</number>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+              <widget class="QLineEdit" name="gas_lineEdit_2">
+               <property name="geometry">
+                <rect>
+                 <x>44</x>
+                 <y>110</y>
+                 <width>221</width>
+                 <height>40</height>
+                </rect>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>15</pointsize>
+                </font>
+               </property>
+               <property name="maxLength">
+                <number>50</number>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+              <widget class="QLineEdit" name="gas_lineEdit_3">
+               <property name="geometry">
+                <rect>
+                 <x>44</x>
+                 <y>156</y>
+                 <width>221</width>
+                 <height>40</height>
+                </rect>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>15</pointsize>
+                </font>
+               </property>
+               <property name="maxLength">
+                <number>50</number>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </widget>
+             <widget class="QFrame" name="capture_frame">
+              <property name="geometry">
+               <rect>
+                <x>311</x>
+                <y>477</y>
+                <width>277</width>
+                <height>208</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color:rgb(42, 45, 67)</string>
+              </property>
+              <property name="frameShape">
+               <enum>QFrame::NoFrame</enum>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Plain</enum>
+              </property>
+              <widget class="QLineEdit" name="capture_lineEdit_0">
+               <property name="geometry">
+                <rect>
+                 <x>25</x>
+                 <y>14</y>
+                 <width>221</width>
+                 <height>40</height>
+                </rect>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>15</pointsize>
+                </font>
+               </property>
+               <property name="maxLength">
+                <number>50</number>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+              <widget class="QLineEdit" name="capture_lineEdit_1">
+               <property name="geometry">
+                <rect>
+                 <x>25</x>
+                 <y>62</y>
+                 <width>221</width>
+                 <height>40</height>
+                </rect>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>15</pointsize>
+                </font>
+               </property>
+               <property name="maxLength">
+                <number>50</number>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+              <widget class="QLineEdit" name="capture_lineEdit_2">
+               <property name="geometry">
+                <rect>
+                 <x>25</x>
+                 <y>110</y>
+                 <width>221</width>
+                 <height>40</height>
+                </rect>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>15</pointsize>
+                </font>
+               </property>
+               <property name="maxLength">
+                <number>50</number>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+              <widget class="QLineEdit" name="capture_lineEdit_3">
+               <property name="geometry">
+                <rect>
+                 <x>25</x>
+                 <y>156</y>
+                 <width>221</width>
+                 <height>40</height>
+                </rect>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>15</pointsize>
+                </font>
+               </property>
+               <property name="maxLength">
+                <number>50</number>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </widget>
+             <widget class="QFrame" name="basic_con_frame">
+              <property name="geometry">
+               <rect>
+                <x>19</x>
+                <y>51</y>
+                <width>182</width>
+                <height>182</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true"/>
+              </property>
+              <property name="frameShape">
+               <enum>QFrame::Box</enum>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Plain</enum>
+              </property>
+              <widget class="QLabel" name="main_connectionstatus_label">
+               <property name="geometry">
+                <rect>
+                 <x>1</x>
+                 <y>1</y>
+                 <width>180</width>
+                 <height>180</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true"/>
+               </property>
+               <property name="frameShape">
+                <enum>QFrame::Box</enum>
+               </property>
+               <property name="text">
+                <string>connectionl</string>
+               </property>
+               <property name="scaledContents">
+                <bool>false</bool>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </widget>
+             <widget class="QFrame" name="basic_power_frame">
+              <property name="geometry">
+               <rect>
+                <x>213</x>
+                <y>51</y>
+                <width>182</width>
+                <height>182</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true"/>
+              </property>
+              <property name="frameShape">
+               <enum>QFrame::Box</enum>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Plain</enum>
+              </property>
+              <widget class="QLabel" name="main_powerstatus_label">
+               <property name="geometry">
+                <rect>
+                 <x>1</x>
+                 <y>1</y>
+                 <width>180</width>
+                 <height>180</height>
+                </rect>
+               </property>
+               <property name="frameShape">
+                <enum>QFrame::Box</enum>
+               </property>
+               <property name="text">
+                <string>power</string>
+               </property>
+               <property name="scaledContents">
+                <bool>false</bool>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </widget>
+             <widget class="QFrame" name="basic_motor_frame">
+              <property name="geometry">
+               <rect>
+                <x>407</x>
+                <y>51</y>
+                <width>182</width>
+                <height>182</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true"/>
+              </property>
+              <property name="frameShape">
+               <enum>QFrame::Box</enum>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Plain</enum>
+              </property>
+              <widget class="QLabel" name="main_motorstatus_label">
+               <property name="geometry">
+                <rect>
+                 <x>1</x>
+                 <y>1</y>
+                 <width>180</width>
+                 <height>180</height>
+                </rect>
+               </property>
+               <property name="frameShape">
+                <enum>QFrame::Box</enum>
+               </property>
+               <property name="text">
+                <string>motor</string>
+               </property>
+               <property name="scaledContents">
+                <bool>false</bool>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </widget>
+             <widget class="QFrame" name="basic_fan_frame">
+              <property name="geometry">
+               <rect>
+                <x>19</x>
+                <y>245</y>
+                <width>182</width>
+                <height>182</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true"/>
+              </property>
+              <property name="frameShape">
+               <enum>QFrame::Box</enum>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Plain</enum>
+              </property>
+              <widget class="QLabel" name="main_fanstatus_label">
+               <property name="geometry">
+                <rect>
+                 <x>1</x>
+                 <y>1</y>
+                 <width>180</width>
+                 <height>180</height>
+                </rect>
+               </property>
+               <property name="frameShape">
+                <enum>QFrame::Box</enum>
+               </property>
+               <property name="text">
+                <string>fan</string>
+               </property>
+               <property name="scaledContents">
+                <bool>false</bool>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </widget>
+             <widget class="QFrame" name="basic_gas_frame">
+              <property name="geometry">
+               <rect>
+                <x>213</x>
+                <y>245</y>
+                <width>182</width>
+                <height>182</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true"/>
+              </property>
+              <property name="frameShape">
+               <enum>QFrame::Box</enum>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Plain</enum>
+              </property>
+              <widget class="QPushButton" name="gas_pushButton">
+               <property name="geometry">
+                <rect>
+                 <x>1</x>
+                 <y>1</y>
+                 <width>180</width>
+                 <height>180</height>
+                </rect>
+               </property>
+               <property name="whatsThis">
+                <string notr="true"/>
+               </property>
+               <property name="accessibleName">
+                <string notr="true"/>
+               </property>
+               <property name="accessibleDescription">
+                <string notr="true"/>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton{ background-color:rgb(42, 45, 67); }</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>146</width>
+                 <height>121</height>
+                </size>
+               </property>
+               <property name="default">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </widget>
+             <widget class="QFrame" name="basic_capture_frame">
+              <property name="geometry">
+               <rect>
+                <x>407</x>
+                <y>245</y>
+                <width>182</width>
+                <height>182</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true"/>
+              </property>
+              <property name="frameShape">
+               <enum>QFrame::Box</enum>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Plain</enum>
+              </property>
+              <widget class="QPushButton" name="capture_pushButton">
+               <property name="geometry">
+                <rect>
+                 <x>1</x>
+                 <y>1</y>
+                 <width>180</width>
+                 <height>180</height>
+                </rect>
+               </property>
+               <property name="whatsThis">
+                <string notr="true"/>
+               </property>
+               <property name="accessibleName">
+                <string notr="true"/>
+               </property>
+               <property name="accessibleDescription">
+                <string notr="true"/>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton{ background-color:rgb(42, 45, 67); }</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>148</width>
+                 <height>121</height>
+                </size>
+               </property>
+               <property name="shortcut">
+                <string notr="true">Enter</string>
+               </property>
+               <property name="default">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </widget>
+             <widget class="QPushButton" name="slam_reset_pushButton">
+              <property name="geometry">
+               <rect>
+                <x>199</x>
+                <y>736</y>
+                <width>187</width>
+                <height>75</height>
+               </rect>
+              </property>
+              <property name="whatsThis">
+               <string notr="true"/>
+              </property>
+              <property name="accessibleName">
+               <string notr="true"/>
+              </property>
+              <property name="accessibleDescription">
+               <string notr="true"/>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QPushButton{ background-color:rgb(42, 45, 67); }</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>:/ic_reset.png</normaloff>:/ic_reset.png</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>187</width>
+                <height>75</height>
+               </size>
+              </property>
+              <property name="shortcut">
+               <string notr="true"/>
+              </property>
+             </widget>
+             <widget class="QPushButton" name="slam_help_pushButton">
+              <property name="geometry">
+               <rect>
+                <x>401</x>
+                <y>736</y>
+                <width>187</width>
+                <height>75</height>
+               </rect>
+              </property>
+              <property name="whatsThis">
+               <string notr="true"/>
+              </property>
+              <property name="accessibleName">
+               <string notr="true"/>
+              </property>
+              <property name="accessibleDescription">
+               <string notr="true"/>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QPushButton{ background-color:rgb(42, 45, 67); }</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>:/ic_help.png</normaloff>:/ic_help.png</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>187</width>
+                <height>75</height>
+               </size>
+              </property>
+              <property name="shortcut">
+               <string notr="true"/>
+              </property>
+             </widget>
+             <widget class="QPushButton" name="slam_save_pushButton">
+              <property name="geometry">
+               <rect>
+                <x>199</x>
+                <y>826</y>
+                <width>187</width>
+                <height>75</height>
+               </rect>
+              </property>
+              <property name="whatsThis">
+               <string notr="true"/>
+              </property>
+              <property name="accessibleName">
+               <string notr="true"/>
+              </property>
+              <property name="accessibleDescription">
+               <string notr="true"/>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QPushButton{ background-color:rgb(42, 45, 67); }</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>:/ic_save.png</normaloff>:/ic_save.png</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>187</width>
+                <height>75</height>
+               </size>
+              </property>
+              <property name="shortcut">
+               <string notr="true"/>
+              </property>
+             </widget>
+             <widget class="QPushButton" name="slam_gas_pushButton">
+              <property name="geometry">
+               <rect>
+                <x>401</x>
+                <y>826</y>
+                <width>187</width>
+                <height>75</height>
+               </rect>
+              </property>
+              <property name="whatsThis">
+               <string notr="true"/>
+              </property>
+              <property name="accessibleName">
+               <string notr="true"/>
+              </property>
+              <property name="accessibleDescription">
+               <string notr="true"/>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QPushButton{ background-color:rgb(42, 45, 67); }</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>:/ic_gas.png</normaloff>:/ic_gas.png</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>187</width>
+                <height>75</height>
+               </size>
+              </property>
+              <property name="shortcut">
+               <string notr="true"/>
+              </property>
+             </widget>
+             <widget class="QFrame" name="basic_slam_frame">
+              <property name="geometry">
+               <rect>
+                <x>20</x>
+                <y>736</y>
+                <width>167</width>
+                <height>167</height>
+               </rect>
+              </property>
+              <property name="frameShape">
+               <enum>QFrame::Box</enum>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Raised</enum>
+              </property>
+              <widget class="QLabel" name="main_slamonoff_label">
+               <property name="geometry">
+                <rect>
+                 <x>1</x>
+                 <y>1</y>
+                 <width>165</width>
+                 <height>165</height>
+                </rect>
+               </property>
+               <property name="frameShape">
+                <enum>QFrame::Box</enum>
+               </property>
+               <property name="text">
+                <string>slam on/off</string>
+               </property>
+               <property name="scaledContents">
+                <bool>false</bool>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </widget>
+             <widget class="QPushButton" name="capture_button">
+              <property name="geometry">
+               <rect>
+                <x>505</x>
+                <y>449</y>
+                <width>84</width>
+                <height>25</height>
+               </rect>
+              </property>
+              <property name="whatsThis">
+               <string notr="true"/>
+              </property>
+              <property name="accessibleName">
+               <string notr="true"/>
+              </property>
+              <property name="accessibleDescription">
+               <string notr="true"/>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QPushButton{ background-color:rgb(42, 45, 67); 
+  border-radius: 4px;
+  border: solid 4px #dfe1ee;
+  color: white;
+}</string>
+              </property>
+              <property name="text">
+               <string>capture</string>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>0</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="shortcut">
+               <string notr="true"/>
+              </property>
+             </widget>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="motor_tab">
+          <property name="styleSheet">
+           <string notr="true">background-color : rgb(36, 39, 58)</string>
+          </property>
+          <attribute name="icon">
+           <iconset>
+            <activeoff>:/gnb_motor_off.png</activeoff>
+            <activeon>:/gnb_motor_on.png</activeon>
+           </iconset>
+          </attribute>
+          <attribute name="title">
+           <string/>
+          </attribute>
+          <widget class="QGroupBox" name="motor_groupbox">
+           <property name="geometry">
+            <rect>
+             <x>40</x>
+             <y>210</y>
+             <width>371</width>
+             <height>461</height>
+            </rect>
+           </property>
+           <property name="title">
+            <string>motor</string>
+           </property>
+           <widget class="QTextEdit" name="motor_header_sec_text">
+            <property name="geometry">
+             <rect>
+              <x>50</x>
+              <y>40</y>
+              <width>111</width>
+              <height>31</height>
+             </rect>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Plain</enum>
+            </property>
+            <property name="readOnly">
+             <bool>true</bool>
+            </property>
+            <property name="html">
+             <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Header_sec&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+           </widget>
+           <widget class="QTextEdit" name="motor_Name">
+            <property name="geometry">
+             <rect>
+              <x>190</x>
+              <y>140</y>
+              <width>141</width>
+              <height>31</height>
+             </rect>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Plain</enum>
+            </property>
+            <property name="html">
+             <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+           </widget>
+           <widget class="QTextEdit" name="motor_CM_text">
+            <property name="geometry">
+             <rect>
+              <x>410</x>
+              <y>40</y>
+              <width>71</width>
+              <height>31</height>
+             </rect>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Plain</enum>
+            </property>
+            <property name="readOnly">
+             <bool>true</bool>
+            </property>
+            <property name="html">
+             <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;CM&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+           </widget>
+           <widget class="QTextEdit" name="motor_CM">
+            <property name="geometry">
+             <rect>
+              <x>510</x>
+              <y>40</y>
+              <width>141</width>
+              <height>31</height>
+             </rect>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Plain</enum>
+            </property>
+            <property name="html">
+             <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+           </widget>
+           <widget class="QTextEdit" name="motor_RP_text">
+            <property name="geometry">
+             <rect>
+              <x>410</x>
+              <y>90</y>
+              <width>71</width>
+              <height>31</height>
+             </rect>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Plain</enum>
+            </property>
+            <property name="readOnly">
+             <bool>true</bool>
+            </property>
+            <property name="html">
+             <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;RP&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+           </widget>
+           <widget class="QTextEdit" name="motor_LM_SPD_text">
+            <property name="geometry">
+             <rect>
+              <x>20</x>
+              <y>260</y>
+              <width>71</width>
+              <height>31</height>
+             </rect>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Plain</enum>
+            </property>
+            <property name="readOnly">
+             <bool>true</bool>
+            </property>
+            <property name="html">
+             <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;LM_SPD&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+           </widget>
+           <widget class="QTextEdit" name="motor_LW_SPD_text">
+            <property name="geometry">
+             <rect>
+              <x>20</x>
+              <y>300</y>
+              <width>71</width>
+              <height>31</height>
+             </rect>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Plain</enum>
+            </property>
+            <property name="readOnly">
+             <bool>true</bool>
+            </property>
+            <property name="html">
+             <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;LW_SPD&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+           </widget>
+           <widget class="QTextEdit" name="motor_RM_SPD_text">
+            <property name="geometry">
+             <rect>
+              <x>240</x>
+              <y>260</y>
+              <width>71</width>
+              <height>31</height>
+             </rect>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Plain</enum>
+            </property>
+            <property name="readOnly">
+             <bool>true</bool>
+            </property>
+            <property name="html">
+             <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;RM_SPD&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+           </widget>
+           <widget class="QTextEdit" name="motor_RW_SPD_text">
+            <property name="geometry">
+             <rect>
+              <x>240</x>
+              <y>300</y>
+              <width>71</width>
+              <height>31</height>
+             </rect>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Plain</enum>
+            </property>
+            <property name="readOnly">
+             <bool>true</bool>
+            </property>
+            <property name="html">
+             <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;RW_SPD&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+           </widget>
+           <widget class="QTextEdit" name="motor_FM_SPD_text">
+            <property name="geometry">
+             <rect>
+              <x>20</x>
+              <y>340</y>
+              <width>71</width>
+              <height>31</height>
+             </rect>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Plain</enum>
+            </property>
+            <property name="readOnly">
+             <bool>true</bool>
+            </property>
+            <property name="html">
+             <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;FM_SPD&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+           </widget>
+           <widget class="QTextEdit" name="motor_FW_SPD_text">
+            <property name="geometry">
+             <rect>
+              <x>20</x>
+              <y>380</y>
+              <width>71</width>
+              <height>31</height>
+             </rect>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Plain</enum>
+            </property>
+            <property name="readOnly">
+             <bool>true</bool>
+            </property>
+            <property name="html">
+             <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;FW_SPD&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+           </widget>
+           <widget class="QLCDNumber" name="motor_LM_SPD_lcd">
+            <property name="geometry">
+             <rect>
+              <x>110</x>
+              <y>260</y>
+              <width>91</width>
+              <height>31</height>
+             </rect>
+            </property>
+           </widget>
+           <widget class="QLCDNumber" name="motor_LW_SPD_lcd">
+            <property name="geometry">
+             <rect>
+              <x>110</x>
+              <y>300</y>
+              <width>91</width>
+              <height>31</height>
+             </rect>
+            </property>
+           </widget>
+           <widget class="QLCDNumber" name="motor_RW_SPD_lcd">
+            <property name="geometry">
+             <rect>
+              <x>330</x>
+              <y>300</y>
+              <width>91</width>
+              <height>31</height>
+             </rect>
+            </property>
+           </widget>
+           <widget class="QLCDNumber" name="motor_RM_SPD_lcd">
+            <property name="geometry">
+             <rect>
+              <x>330</x>
+              <y>260</y>
+              <width>91</width>
+              <height>31</height>
+             </rect>
+            </property>
+           </widget>
+           <widget class="QLCDNumber" name="motor_FW_SPD_lcd">
+            <property name="geometry">
+             <rect>
+              <x>110</x>
+              <y>380</y>
+              <width>91</width>
+              <height>31</height>
+             </rect>
+            </property>
+           </widget>
+           <widget class="QLCDNumber" name="motor_FM_SPD_lcd">
+            <property name="geometry">
+             <rect>
+              <x>110</x>
+              <y>340</y>
+              <width>91</width>
+              <height>31</height>
+             </rect>
+            </property>
+           </widget>
+           <widget class="QTextEdit" name="motor_FW_AGL_text">
+            <property name="geometry">
+             <rect>
+              <x>240</x>
+              <y>380</y>
+              <width>71</width>
+              <height>31</height>
+             </rect>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Plain</enum>
+            </property>
+            <property name="readOnly">
+             <bool>true</bool>
+            </property>
+            <property name="html">
+             <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;FW_AGL&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+           </widget>
+           <widget class="QTextEdit" name="motor_FM_AGL_text">
+            <property name="geometry">
+             <rect>
+              <x>240</x>
+              <y>340</y>
+              <width>71</width>
+              <height>31</height>
+             </rect>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Plain</enum>
+            </property>
+            <property name="readOnly">
+             <bool>true</bool>
+            </property>
+            <property name="html">
+             <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;FM_AGL&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+           </widget>
+           <widget class="QLCDNumber" name="motor_FW_AGL_lcd">
+            <property name="geometry">
+             <rect>
+              <x>330</x>
+              <y>380</y>
+              <width>91</width>
+              <height>31</height>
+             </rect>
+            </property>
+           </widget>
+           <widget class="QLCDNumber" name="motor_FM_AGL_lcd">
+            <property name="geometry">
+             <rect>
+              <x>330</x>
+              <y>340</y>
+              <width>91</width>
+              <height>31</height>
+             </rect>
+            </property>
+           </widget>
+           <widget class="QTextEdit" name="motor_RP">
+            <property name="geometry">
+             <rect>
+              <x>510</x>
+              <y>90</y>
+              <width>211</width>
+              <height>31</height>
+             </rect>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Plain</enum>
+            </property>
+            <property name="html">
+             <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+           </widget>
+           <widget class="QTextEdit" name="motor_Name_text">
+            <property name="geometry">
+             <rect>
+              <x>90</x>
+              <y>140</y>
+              <width>71</width>
+              <height>31</height>
+             </rect>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Plain</enum>
+            </property>
+            <property name="readOnly">
+             <bool>true</bool>
+            </property>
+            <property name="html">
+             <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Name&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+           </widget>
+           <widget class="QTextEdit" name="motor_header_nsec_text">
+            <property name="geometry">
+             <rect>
+              <x>50</x>
+              <y>90</y>
+              <width>111</width>
+              <height>31</height>
+             </rect>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Plain</enum>
+            </property>
+            <property name="readOnly">
+             <bool>true</bool>
+            </property>
+            <property name="html">
+             <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Header_nsec&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+           </widget>
+           <widget class="QLCDNumber" name="motor_header_sec_lcd">
+            <property name="geometry">
+             <rect>
+              <x>190</x>
+              <y>40</y>
+              <width>151</width>
+              <height>31</height>
+             </rect>
+            </property>
+           </widget>
+           <widget class="QLCDNumber" name="motor_header_nsec_lcd">
+            <property name="geometry">
+             <rect>
+              <x>190</x>
+              <y>90</y>
+              <width>151</width>
+              <height>31</height>
+             </rect>
+            </property>
+           </widget>
+          </widget>
+          <widget class="QTextEdit" name="motor_DMC_S_text">
+           <property name="geometry">
+            <rect>
+             <x>20</x>
+             <y>69</y>
+             <width>81</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">
+  font-size: 16px;
+
+  font-weight: normal;
+
+  font-stretch: normal;
+
+  font-style: normal;
+
+  line-height: normal;
+
+  letter-spacing: normal;
+
+  text-align: left;
+
+  color: #dfe1ee;</string>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::NoFrame</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Plain</enum>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+           <property name="html">
+            <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:16px; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;DMC_S&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="motor_DMC_S_signal">
+           <property name="geometry">
+            <rect>
+             <x>134</x>
+             <y>65</y>
+             <width>31</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>:/images/Red.png</pixmap>
+           </property>
+          </widget>
+          <widget class="QTextEdit" name="motor_FMC_S_text">
+           <property name="geometry">
+            <rect>
+             <x>20</x>
+             <y>121</y>
+             <width>71</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">
+  font-size: 16px;
+
+  font-weight: normal;
+
+  font-stretch: normal;
+
+  font-style: normal;
+
+  line-height: normal;
+
+  letter-spacing: normal;
+
+  text-align: left;
+
+  color: #dfe1ee;</string>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::NoFrame</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Plain</enum>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+           <property name="html">
+            <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:16px; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;FMC_S&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="motor_FMC_S_signal">
+           <property name="geometry">
+            <rect>
+             <x>134</x>
+             <y>117</y>
+             <width>31</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>:/images/Red.png</pixmap>
+           </property>
+          </widget>
+         </widget>
+         <widget class="QWidget" name="sensor_tab">
+          <property name="styleSheet">
+           <string notr="true">background-color : rgb(36, 39, 58)</string>
+          </property>
+          <attribute name="icon">
+           <iconset>
+            <activeoff>:/gnb_sensor_off.png</activeoff>
+            <activeon>:/gnb_sensor_on.png</activeon>
+           </iconset>
+          </attribute>
+          <attribute name="title">
+           <string notr="true"/>
+          </attribute>
+          <widget class="QGroupBox" name="sensor_groupbox">
+           <property name="geometry">
+            <rect>
+             <x>110</x>
+             <y>680</y>
+             <width>431</width>
+             <height>201</height>
+            </rect>
+           </property>
+           <property name="title">
+            <string>Sensor</string>
+           </property>
+           <widget class="QGroupBox" name="sensor_imu_groupbox">
+            <property name="geometry">
+             <rect>
+              <x>30</x>
+              <y>160</y>
+              <width>361</width>
+              <height>351</height>
+             </rect>
+            </property>
+            <property name="title">
+             <string>IMU</string>
+            </property>
+            <widget class="QLineEdit" name="sensor_imu_quaternion_x_text">
+             <property name="geometry">
+              <rect>
+               <x>60</x>
+               <y>190</y>
+               <width>101</width>
+               <height>25</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>Quaternion.x</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="sensor_imu_quaternion_z_text">
+             <property name="geometry">
+              <rect>
+               <x>190</x>
+               <y>190</y>
+               <width>101</width>
+               <height>25</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>Quaternion.z</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="sensor_imu_quaternion_w_text">
+             <property name="geometry">
+              <rect>
+               <x>190</x>
+               <y>270</y>
+               <width>101</width>
+               <height>25</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>Quaternion.w</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="sensor_imu_angular_vel_y_text">
+             <property name="geometry">
+              <rect>
+               <x>130</x>
+               <y>30</y>
+               <width>101</width>
+               <height>25</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>angluar_vel.y</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="sensor_imu_angular_vel_x_text">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>30</y>
+               <width>101</width>
+               <height>25</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>angluar_vel.x</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="sensor_imu_angular_vel_z_text">
+             <property name="geometry">
+              <rect>
+               <x>250</x>
+               <y>30</y>
+               <width>101</width>
+               <height>25</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>angluar_vel.z</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="sensor_imu_linear_accel_y_text">
+             <property name="geometry">
+              <rect>
+               <x>130</x>
+               <y>110</y>
+               <width>101</width>
+               <height>25</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>linear_accel.y</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="sensor_imu_linear_accel_z_text">
+             <property name="geometry">
+              <rect>
+               <x>250</x>
+               <y>110</y>
+               <width>101</width>
+               <height>25</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>linear_accel.z</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="sensor_imu_linear_accel_x_text">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>110</y>
+               <width>101</width>
+               <height>25</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>linear_accel.x</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="sensor_imu_quaternion_y_text">
+             <property name="geometry">
+              <rect>
+               <x>60</x>
+               <y>270</y>
+               <width>101</width>
+               <height>25</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>Quaternion.y</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+            <widget class="QLCDNumber" name="sensor_imu_angular_vel_y_lcd">
+             <property name="geometry">
+              <rect>
+               <x>130</x>
+               <y>60</y>
+               <width>101</width>
+               <height>31</height>
+              </rect>
+             </property>
+            </widget>
+            <widget class="QLCDNumber" name="sensor_imu_angular_vel_z_lcd">
+             <property name="geometry">
+              <rect>
+               <x>250</x>
+               <y>60</y>
+               <width>101</width>
+               <height>31</height>
+              </rect>
+             </property>
+            </widget>
+            <widget class="QLCDNumber" name="sensor_imu_angular_vel_x_lcd">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>60</y>
+               <width>101</width>
+               <height>31</height>
+              </rect>
+             </property>
+            </widget>
+            <widget class="QLCDNumber" name="sensor_imu_linear_accel_x_lcd">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>140</y>
+               <width>101</width>
+               <height>31</height>
+              </rect>
+             </property>
+            </widget>
+            <widget class="QLCDNumber" name="sensor_imu_linear_accel_z_lcd">
+             <property name="geometry">
+              <rect>
+               <x>250</x>
+               <y>140</y>
+               <width>101</width>
+               <height>31</height>
+              </rect>
+             </property>
+            </widget>
+            <widget class="QLCDNumber" name="sensor_imu_linear_accel_y_lcd">
+             <property name="geometry">
+              <rect>
+               <x>130</x>
+               <y>140</y>
+               <width>101</width>
+               <height>31</height>
+              </rect>
+             </property>
+            </widget>
+            <widget class="QLCDNumber" name="sensor_imu_quaternion_z_lcd">
+             <property name="geometry">
+              <rect>
+               <x>190</x>
+               <y>220</y>
+               <width>101</width>
+               <height>31</height>
+              </rect>
+             </property>
+            </widget>
+            <widget class="QLCDNumber" name="sensor_imu_quaternion_x_lcd">
+             <property name="geometry">
+              <rect>
+               <x>60</x>
+               <y>220</y>
+               <width>101</width>
+               <height>31</height>
+              </rect>
+             </property>
+            </widget>
+            <widget class="QLCDNumber" name="sensor_imu_quaternion_y_lcd">
+             <property name="geometry">
+              <rect>
+               <x>60</x>
+               <y>300</y>
+               <width>101</width>
+               <height>31</height>
+              </rect>
+             </property>
+            </widget>
+            <widget class="QLCDNumber" name="sensor_imu_quaternion_w_lcd">
+             <property name="geometry">
+              <rect>
+               <x>190</x>
+               <y>300</y>
+               <width>101</width>
+               <height>31</height>
+              </rect>
+             </property>
+            </widget>
+           </widget>
+           <widget class="QGroupBox" name="sensor_gps_groupbox">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>30</y>
+              <width>411</width>
+              <height>101</height>
+             </rect>
+            </property>
+            <property name="title">
+             <string>GPS</string>
+            </property>
+            <widget class="QLineEdit" name="sensor_gps_latitude_text">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>30</y>
+               <width>91</width>
+               <height>25</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>Latitude</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+            <widget class="QLCDNumber" name="sensor_gps_latitude_lcd">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>60</y>
+               <width>91</width>
+               <height>31</height>
+              </rect>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="sensor_gps_longitude_text">
+             <property name="geometry">
+              <rect>
+               <x>110</x>
+               <y>30</y>
+               <width>91</width>
+               <height>25</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>Longitude</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+            <widget class="QLCDNumber" name="sensor_gps_longitude_lcd">
+             <property name="geometry">
+              <rect>
+               <x>110</x>
+               <y>60</y>
+               <width>91</width>
+               <height>31</height>
+              </rect>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="sensor_gps_time_text">
+             <property name="geometry">
+              <rect>
+               <x>310</x>
+               <y>30</y>
+               <width>91</width>
+               <height>25</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>GPS Time</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="sensor_gps_altitude_text">
+             <property name="geometry">
+              <rect>
+               <x>210</x>
+               <y>30</y>
+               <width>91</width>
+               <height>25</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>Altitude</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+            <widget class="QLCDNumber" name="sensor_gps_altitude_lcd">
+             <property name="geometry">
+              <rect>
+               <x>210</x>
+               <y>60</y>
+               <width>91</width>
+               <height>31</height>
+              </rect>
+             </property>
+            </widget>
+            <widget class="QLCDNumber" name="sensor_gps_time_lcd">
+             <property name="geometry">
+              <rect>
+               <x>310</x>
+               <y>60</y>
+               <width>91</width>
+               <height>31</height>
+              </rect>
+             </property>
+            </widget>
+           </widget>
+          </widget>
+         </widget>
+         <widget class="QWidget" name="joystick_tab">
+          <property name="styleSheet">
+           <string notr="true">background-color : rgb(36, 39, 58)</string>
+          </property>
+          <attribute name="icon">
+           <iconset>
+            <activeoff>:/gnb_joy_off.png</activeoff>
+            <activeon>:/gnb_joy_on.png</activeon>
+           </iconset>
+          </attribute>
+          <attribute name="title">
+           <string/>
+          </attribute>
+          <widget class="QLabel" name="L">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="geometry">
+            <rect>
+             <x>65</x>
+             <y>693</y>
+             <width>106</width>
+             <height>106</height>
+            </rect>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="layoutDirection">
+            <enum>Qt::LeftToRight</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="textFormat">
+            <enum>Qt::AutoText</enum>
+           </property>
+           <property name="pixmap">
+            <pixmap>:/joy_tab/L.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="R">
+           <property name="geometry">
+            <rect>
+             <x>437</x>
+             <y>693</y>
+             <width>106</width>
+             <height>106</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>:joy_tab/R.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QLabel" name="joy_tab_topicname_label">
+           <property name="geometry">
+            <rect>
+             <x>20</x>
+             <y>20</y>
+             <width>171</width>
+             <height>17</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: transparent;
+font: 12pt &quot;Ubuntu&quot;;
+color: #a1a5be;</string>
+           </property>
+           <property name="text">
+            <string>Topic : Rtoc_J_State</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="L1">
+           <property name="geometry">
+            <rect>
+             <x>158</x>
+             <y>65</y>
+             <width>63</width>
+             <height>48</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QLabel" name="L2">
+           <property name="geometry">
+            <rect>
+             <x>158</x>
+             <y>125</y>
+             <width>63</width>
+             <height>48</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QLabel" name="L_T">
+           <property name="geometry">
+            <rect>
+             <x>158</x>
+             <y>245</y>
+             <width>63</width>
+             <height>48</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QLabel" name="L3">
+           <property name="geometry">
+            <rect>
+             <x>158</x>
+             <y>185</y>
+             <width>63</width>
+             <height>48</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QLabel" name="R2">
+           <property name="geometry">
+            <rect>
+             <x>384</x>
+             <y>125</y>
+             <width>63</width>
+             <height>48</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QLabel" name="R3">
+           <property name="geometry">
+            <rect>
+             <x>384</x>
+             <y>185</y>
+             <width>63</width>
+             <height>48</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QLabel" name="R_T">
+           <property name="geometry">
+            <rect>
+             <x>384</x>
+             <y>245</y>
+             <width>63</width>
+             <height>48</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QLabel" name="R1">
+           <property name="geometry">
+            <rect>
+             <x>384</x>
+             <y>65</y>
+             <width>63</width>
+             <height>48</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QLabel" name="L2_R2">
+           <property name="geometry">
+            <rect>
+             <x>247</x>
+             <y>125</y>
+             <width>111</width>
+             <height>48</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QLabel" name="L3_R3">
+           <property name="geometry">
+            <rect>
+             <x>247</x>
+             <y>185</y>
+             <width>111</width>
+             <height>48</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QLabel" name="bttn_l">
+           <property name="geometry">
+            <rect>
+             <x>59</x>
+             <y>369</y>
+             <width>48</width>
+             <height>30</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QLabel" name="bttn_u">
+           <property name="geometry">
+            <rect>
+             <x>96</x>
+             <y>331</y>
+             <width>30</width>
+             <height>48</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QLabel" name="bttn_r">
+           <property name="geometry">
+            <rect>
+             <x>114</x>
+             <y>369</y>
+             <width>48</width>
+             <height>30</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QLabel" name="bttn_d">
+           <property name="geometry">
+            <rect>
+             <x>96</x>
+             <y>387</y>
+             <width>30</width>
+             <height>48</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QLabel" name="circle">
+           <property name="geometry">
+            <rect>
+             <x>512</x>
+             <y>423</y>
+             <width>48</width>
+             <height>48</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QLabel" name="square">
+           <property name="geometry">
+            <rect>
+             <x>412</x>
+             <y>423</y>
+             <width>48</width>
+             <height>48</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QLabel" name="triangle">
+           <property name="geometry">
+            <rect>
+             <x>462</x>
+             <y>373</y>
+             <width>48</width>
+             <height>48</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QLabel" name="X">
+           <property name="geometry">
+            <rect>
+             <x>462</x>
+             <y>473</y>
+             <width>48</width>
+             <height>48</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QLabel" name="bttn_share">
+           <property name="geometry">
+            <rect>
+             <x>247</x>
+             <y>342</y>
+             <width>30</width>
+             <height>48</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QLabel" name="bttn_options">
+           <property name="geometry">
+            <rect>
+             <x>325</x>
+             <y>342</y>
+             <width>30</width>
+             <height>48</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QLabel" name="text_share">
+           <property name="geometry">
+            <rect>
+             <x>240</x>
+             <y>398</y>
+             <width>44</width>
+             <height>17</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: transparent;
+font: 10pt &quot;Ubuntu&quot;;
+color: #fff;</string>
+           </property>
+           <property name="text">
+            <string>SHARE</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="text_option">
+           <property name="geometry">
+            <rect>
+             <x>310</x>
+             <y>398</y>
+             <width>59</width>
+             <height>17</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: transparent;
+font: 10pt &quot;Ubuntu&quot;;
+color: #fff;</string>
+           </property>
+           <property name="text">
+            <string>OPTIONS</string>
+           </property>
+          </widget>
+          <widget class="QLCDNumber" name="d_btn_x_lcdNumber">
+           <property name="geometry">
+            <rect>
+             <x>89</x>
+             <y>447</y>
+             <width>112</width>
+             <height>40</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">
+  padding: 6px 8px;
+
+  border-radius: 4px;
+
+  border: solid 1px #575a6c;
+
+  background-color: #191b29;</string>
+           </property>
+          </widget>
+          <widget class="QLCDNumber" name="d_btn_y_lcdNumber">
+           <property name="geometry">
+            <rect>
+             <x>89</x>
+             <y>497</y>
+             <width>112</width>
+             <height>40</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">
+  padding: 6px 8px;
+
+  border-radius: 4px;
+
+  border: solid 1px #575a6c;
+
+  background-color: #191b29;</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="text_b_btn_x">
+           <property name="geometry">
+            <rect>
+             <x>20</x>
+             <y>459</y>
+             <width>57</width>
+             <height>17</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: transparent;
+font: 10pt &quot;Ubuntu&quot;;
+color: #fff;</string>
+           </property>
+           <property name="text">
+            <string>D_BTN_X</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="text_b_btn_y">
+           <property name="geometry">
+            <rect>
+             <x>20</x>
+             <y>509</y>
+             <width>57</width>
+             <height>17</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: transparent;
+font: 10pt &quot;Ubuntu&quot;;
+color: #fff;</string>
+           </property>
+           <property name="text">
+            <string>D_BTN_Y</string>
+           </property>
+          </widget>
+          <widget class="QLCDNumber" name="header_sec_lcdNumber">
+           <property name="geometry">
+            <rect>
+             <x>295</x>
+             <y>565</y>
+             <width>112</width>
+             <height>40</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">
+  padding: 6px 8px;
+
+  border-radius: 4px;
+
+  border: solid 1px #575a6c;
+
+  background-color: #191b29;</string>
+           </property>
+          </widget>
+          <widget class="QLCDNumber" name="header_nsec_lcdNumber">
+           <property name="geometry">
+            <rect>
+             <x>295</x>
+             <y>615</y>
+             <width>112</width>
+             <height>40</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">
+  padding: 6px 8px;
+
+  border-radius: 4px;
+
+  border: solid 1px #575a6c;
+
+  background-color: #191b29;</string>
+           </property>
+          </widget>
+          <widget class="QLCDNumber" name="name_lcdNumber">
+           <property name="geometry">
+            <rect>
+             <x>295</x>
+             <y>665</y>
+             <width>112</width>
+             <height>40</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">
+  padding: 6px 8px;
+
+  border-radius: 4px;
+
+  border: solid 1px #575a6c;
+
+  background-color: #191b29;</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="text_header_sec">
+           <property name="geometry">
+            <rect>
+             <x>201</x>
+             <y>577</y>
+             <width>74</width>
+             <height>20</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: transparent;
+font: 10pt &quot;Ubuntu&quot;;
+color: #fff;</string>
+           </property>
+           <property name="text">
+            <string>Header_sec</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="text_header_nsec">
+           <property name="geometry">
+            <rect>
+             <x>201</x>
+             <y>627</y>
+             <width>82</width>
+             <height>20</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: transparent;
+font: 10pt &quot;Ubuntu&quot;;
+color: #fff;</string>
+           </property>
+           <property name="text">
+            <string>Header_nsec</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="text_name">
+           <property name="geometry">
+            <rect>
+             <x>201</x>
+             <y>677</y>
+             <width>37</width>
+             <height>21</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: transparent;
+font: 10pt &quot;Ubuntu&quot;;
+color: #fff;</string>
+           </property>
+           <property name="text">
+            <string>Name</string>
+           </property>
+          </widget>
+          <widget class="QLCDNumber" name="ls_x_lcdNumber">
+           <property name="geometry">
+            <rect>
+             <x>72</x>
+             <y>811</y>
+             <width>134</width>
+             <height>40</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">
+  padding: 6px 8px;
+
+  border-radius: 4px;
+
+  border: solid 1px #575a6c;
+
+  background-color: #191b29;</string>
+           </property>
+          </widget>
+          <widget class="QLCDNumber" name="ls_y_lcdNumber">
+           <property name="geometry">
+            <rect>
+             <x>72</x>
+             <y>861</y>
+             <width>134</width>
+             <height>40</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">
+  padding: 6px 8px;
+
+  border-radius: 4px;
+
+  border: solid 1px #575a6c;
+
+  background-color: #191b29;</string>
+           </property>
+          </widget>
+          <widget class="QLCDNumber" name="rs_y_lcdNumber">
+           <property name="geometry">
+            <rect>
+             <x>444</x>
+             <y>861</y>
+             <width>134</width>
+             <height>40</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">
+  padding: 6px 8px;
+
+  border-radius: 4px;
+
+  border: solid 1px #575a6c;
+
+  background-color: #191b29;</string>
+           </property>
+          </widget>
+          <widget class="QLCDNumber" name="rs_x_lcdNumber">
+           <property name="geometry">
+            <rect>
+             <x>444</x>
+             <y>811</y>
+             <width>134</width>
+             <height>40</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">
+  padding: 6px 8px;
+
+  border-radius: 4px;
+
+  border: solid 1px #575a6c;
+
+  background-color: #191b29;</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="text_b_btn_y_2">
+           <property name="geometry">
+            <rect>
+             <x>30</x>
+             <y>823</y>
+             <width>30</width>
+             <height>17</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: transparent;
+font: 10pt &quot;Ubuntu&quot;;
+color: #fff;</string>
+           </property>
+           <property name="text">
+            <string>LS_X</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="text_b_btn_y_3">
+           <property name="geometry">
+            <rect>
+             <x>30</x>
+             <y>873</y>
+             <width>30</width>
+             <height>20</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: transparent;
+font: 10pt &quot;Ubuntu&quot;;
+color: #fff;</string>
+           </property>
+           <property name="text">
+            <string>LS_y</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="text_b_btn_y_4">
+           <property name="geometry">
+            <rect>
+             <x>402</x>
+             <y>823</y>
+             <width>30</width>
+             <height>20</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: transparent;
+font: 10pt &quot;Ubuntu&quot;;
+color: #fff;</string>
+           </property>
+           <property name="text">
+            <string>RS_X</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="text_b_btn_y_5">
+           <property name="geometry">
+            <rect>
+             <x>402</x>
+             <y>873</y>
+             <width>30</width>
+             <height>20</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: transparent;
+font: 10pt &quot;Ubuntu&quot;;
+color: #fff;</string>
+           </property>
+           <property name="text">
+            <string>RS_Y</string>
+           </property>
+          </widget>
+         </widget>
+         <widget class="QWidget" name="communication_tab">
+          <property name="styleSheet">
+           <string notr="true">background-color : rgb(36, 39, 58)</string>
+          </property>
+          <attribute name="icon">
+           <iconset>
+            <activeoff>:/gnb_communication_off.png</activeoff>
+            <activeon>:/gnb_communication_on.png</activeon>
+           </iconset>
+          </attribute>
+          <attribute name="title">
+           <string/>
+          </attribute>
+          <widget class="QLabel" name="comm_master_url">
+           <property name="geometry">
+            <rect>
+             <x>109</x>
+             <y>185</y>
+             <width>121</width>
+             <height>19</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: transparent;
+font: 12pt &quot;Ubuntu&quot;;
+color: #a1a5be;</string>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::NoFrame</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <property name="text">
+            <string>Ros Master Url</string>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="comm_connect_line_edit_master">
+           <property name="geometry">
+            <rect>
+             <x>109</x>
+             <y>212</y>
+             <width>391</width>
+             <height>48</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color: #fff;
+
+  padding: 15px 12px 14px;
+
+  border-radius: 4px;
+
+  border: solid 1px #575a6c;
+
+  background-color: #191b29;</string>
+           </property>
+           <property name="text">
+            <string>http://localhost:11311/</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="comm_ros_ip">
+           <property name="geometry">
+            <rect>
+             <x>109</x>
+             <y>284</y>
+             <width>51</width>
+             <height>19</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: transparent;
+font: 12pt &quot;Ubuntu&quot;;
+color: #a1a5be;</string>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::NoFrame</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <property name="text">
+            <string>Ros IP</string>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="comm_connect_line_edit_host">
+           <property name="geometry">
+            <rect>
+             <x>109</x>
+             <y>311</y>
+             <width>391</width>
+             <height>48</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color: #fff;
+
+  padding: 15px 12px 14px;
+
+  border-radius: 4px;
+
+  border: solid 1px #575a6c;
+
+  background-color: #191b29;</string>
+           </property>
+           <property name="text">
+            <string>localhost</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="comm_ros_hostname">
+           <property name="geometry">
+            <rect>
+             <x>109</x>
+             <y>383</y>
+             <width>121</width>
+             <height>19</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: transparent;
+font: 12pt &quot;Ubuntu&quot;;
+color: #a1a5be;</string>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::NoFrame</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <property name="text">
+            <string>Ros Hostname</string>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="comm_connect_line_edit_topic">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="geometry">
+            <rect>
+             <x>109</x>
+             <y>410</y>
+             <width>391</width>
+             <height>48</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color: #fff;
+
+  padding: 15px 12px 14px;
+
+  border-radius: 4px;
+
+  border: solid 1px #575a6c;
+
+  background-color: #191b29;</string>
+           </property>
+           <property name="text">
+            <string>unused</string>
+           </property>
+          </widget>
+          <widget class="QCheckBox" name="comm_checkbox_use_environment">
+           <property name="geometry">
+            <rect>
+             <x>109</x>
+             <y>490</y>
+             <width>263</width>
+             <height>23</height>
+            </rect>
+           </property>
+           <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+           </property>
+           <property name="layoutDirection">
+            <enum>Qt::LeftToRight</enum>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: transparent;
+font: 12pt &quot;Ubuntu&quot;;
+color: #a1a5be;
+
+QCheckBox::indicator {
+    width: 24px;
+    height: 24px;
+    background-color: black;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white white black black;
+}</string>
+           </property>
+           <property name="text">
+            <string>Use environment variables</string>
+           </property>
+           <property name="tristate">
+            <bool>false</bool>
+           </property>
+          </widget>
+          <widget class="QCheckBox" name="comm_checkbox_remember_settings">
+           <property name="geometry">
+            <rect>
+             <x>109</x>
+             <y>530</y>
+             <width>263</width>
+             <height>23</height>
+            </rect>
+           </property>
+           <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+           </property>
+           <property name="layoutDirection">
+            <enum>Qt::LeftToRight</enum>
+           </property>
+           <property name="autoFillBackground">
+            <bool>false</bool>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: transparent;
+font: 12pt &quot;Ubuntu&quot;;
+color: #a1a5be;
+
+
+QCheckBox::indicator {
+
+    background-color: gray;
+
+    border-color: white white black black;
+}
+</string>
+           </property>
+           <property name="text">
+            <string notr="true">Remember settings on startup</string>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>20</width>
+             <height>20</height>
+            </size>
+           </property>
+           <property name="tristate">
+            <bool>false</bool>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="comm_connect_button">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="geometry">
+            <rect>
+             <x>109</x>
+             <y>594</y>
+             <width>391</width>
+             <height>48</height>
+            </rect>
+           </property>
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+           </property>
+           <property name="toolTip">
+            <string>Set the target to the current joint trajectory state.</string>
+           </property>
+           <property name="statusTip">
+            <string>Clear all waypoints and set the target to the current joint trajectory state.</string>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color: #dfe1ee;
+
+  padding: 15px 167px;
+
+  border-radius: 4px;
+
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+
+  background-color: #2a2d43;</string>
+           </property>
+           <property name="text">
+            <string>Connect</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="joy_tab_topicname_label_2">
+           <property name="geometry">
+            <rect>
+             <x>20</x>
+             <y>20</y>
+             <width>91</width>
+             <height>19</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: transparent;
+font: 12pt &quot;Ubuntu&quot;;
+color: #a1a5be;</string>
+           </property>
+           <property name="text">
+            <string>ROS Master</string>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </widget>
+        </widget>
+        <widget class="QPushButton" name="pushButton">
+         <property name="geometry">
+          <rect>
+           <x>2450</x>
+           <y>13</y>
+           <width>70</width>
+           <height>32</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: white;
+font: 14pt &quot;Ubuntu&quot;;
+background-color: #b92c26;
+text-align: center;</string>
+         </property>
+         <property name="text">
+          <string>Stop</string>
+         </property>
+        </widget>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <action name="action_Quit">
+   <property name="text">
+    <string>&amp;Quit</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Q</string>
+   </property>
+   <property name="shortcutContext">
+    <enum>Qt::ApplicationShortcut</enum>
+   </property>
+  </action>
+  <action name="action_Preferences">
+   <property name="text">
+    <string>&amp;Preferences</string>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="text">
+    <string>&amp;About</string>
+   </property>
+  </action>
+  <action name="actionAbout_Qt">
+   <property name="text">
+    <string>About &amp;Qt</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>action_Quit</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindowDesign</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>299</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
